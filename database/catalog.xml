@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<catalog>
+    <school>
+        <name>工商管理学院</name>
+        <major>房地产开发与管理</major>
+        <major>工程造价</major>
+        <major>物业管理</major>
+        <major>工商管理</major>
+        <major>人力资源管理</major>
+        <major>电子商务</major>
+        <major>物流管理</major>
+    </school>
+
+    <school>
+        <name>人文学院</name>
+        <major>教师教育方向</major>
+        <major>文学方向</major>
+        <major>应用语言学方向</major>
+        <major>戏剧与影视学方向</major>
+        <major>创作与出版编辑方向</major>
+    </school>
+
+    <school>
+        <name>数学与信息科学学院</name>
+        <major>信息安全专业</major>
+        <major>信息安全专业</major>
+        <major>息与计算科学专业</major>
+    </school>
+
+    <school>
+        <name>旅游学院（中法旅游学院）</name>
+        <major>旅游管理专业(中法项目)</major>
+        <major>旅游管理专业（国内项目）</major>
+        <major>会展经济与管理专业</major>
+    </school>
+
+    <school>
+        <name>经济与统计学院</name>
+        <major>会计学</major>
+        <major>统计学</major>
+        <major>应用经济学</major>
+    </school>
+
+    <school>
+        <name>新闻与传播学院</name>
+        <major>广播电视编导专业</major>
+        <major>网络与新媒体专业</major>
+        <major>广播电视学专业</major>
+        <major>广告学专业</major>
+        <major>播音与主持艺术专业</major>
+        <major>新闻与传播学院专业介绍</major>
+        <major>广东省特色专业——广播电视学</major>
+        <major>广州大学广告学第二专业人才培养方案</major>
+    </school>
+
+    <school>
+        <name>物理与电子工程学院</name>
+        <major>物理学专业（教师教育）</major>
+        <major>物联网工程专业</major>
+        <major>电子信息科学与技术专业</major>
+        <major>光电信息科学与工程（光电检测技术方向）</major>
+    </school>
+
+    <school>
+        <name>计算机科学与教育软件学院</name>
+        <major>计算机科学与技术</major>
+        <major>网络工程</major>
+        <major>软件工程</major>
+    </school>
+</catalog>
