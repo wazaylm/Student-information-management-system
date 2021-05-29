@@ -13,7 +13,7 @@ if (isset($_COOKIE["lib_users_type"])) {
 <head>
     <script type="text/javascript" src="js/login.js"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>登录页</title>
+    <title>——登录页——</title>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <link href="css/login.css" rel="stylesheet" type="text/css"/>
 </head>
