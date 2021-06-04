@@ -78,12 +78,13 @@
     function output() {
         window.location.href = '../../excel/excel_users_output.php?users_id=' + users_id +
             '&users_name=' + users_name + '&users_major=' + users_major + '&users_grade=' +
-            users_grade +'&users_school=' + users_school + '&users_class=' + users_class +
+            users_grade + '&users_school=' + users_school + '&users_class=' + users_class +
             '&users_campus' + users_campus + '&users_registerDate=' + users_registerDate + "&users_expiredDate=" + users_expiredDate;
     }
-    
+
     function addUsers() {
-        window.location.href='addUsers.php';
+        window.location.href = 'addUsers.php';
+    }
     }
 </script>
 
@@ -139,27 +140,19 @@
                         <td><input name="checkbox_users_school" type="checkbox" id="checkbox_users_school"
                                    value=""/></td>
                         <td align="right">用户学院（只允许选择选项）：</td>
-                        <td><select id="users_school" name="users_school"></select></td>
+                        <td id="school_select">
+                            <select onchange="getMajors()" id="users_school" name="users_school">
+                            </select>
+                        </td>
                     </tr>
 
                     <tr>
                         <td><input id="checkbox_users_major" name="checkbox_users_major" type="checkbox" value=""/>
                         </td>
                         <td align="right">用户专业（查询学生才需用）：</td>
-                        <td>
+                        <td id="major_select">
                             <select id="users_major" name="users_major">
-
-                            </select>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td><input id="checkbox_users_class" name="checkbox_users_class" type="checkbox" value=""/>
-                        </td>
-                        <td align="right">用户班级（查询学生才需用）：</td>
-                        <td>
-                            <select id="users_class" name="users_class">
-
+                                <option
                             </select>
                         </td>
                     </tr>
